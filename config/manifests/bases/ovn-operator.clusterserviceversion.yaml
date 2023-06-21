@@ -11,6 +11,11 @@ spec:
   apiservicedefinitions: {}
   customresourcedefinitions:
     owned:
+    - description: OVNController is the Schema for the ovncontrollers API
+      displayName: OVNController
+      kind: OVNController
+      name: ovncontrollers.ovn.openstack.org
+      version: v1beta1
     - description: OVNDBCluster is the Schema for the ovndbclusters API
       displayName: OVNDBCluster
       kind: OVNDBCluster
